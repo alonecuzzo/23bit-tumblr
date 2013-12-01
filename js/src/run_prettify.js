@@ -220,7 +220,7 @@ var IN_GLOBAL_SCOPE = false;
         + '/skins/' + encodeURIComponent(skins[i]) + '.css');
   }
   //skinUrls.push(LOADER_BASE_URL + '/prettify.css');
-  skinUrls.push('/prettify.css://rawgithub.com/alonecuzzo/23bit-tumblr/master/js/src/prettify.css');
+  skinUrls.push('http://rawgithub.com/alonecuzzo/23bit-tumblr/master/js/src/prettify.css');
   loadStylesheetsFallingBack(skinUrls);
 
   var prettyPrint = (function () {
